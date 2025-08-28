@@ -76,7 +76,7 @@ export function Navbar() {
             <div className="md:hidden">
               <Button
                 variant="ghost"
-                size="sm"
+                size="icon"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="w-9 h-9"
               >
@@ -101,6 +101,7 @@ export function Navbar() {
                 onClick={() => scrollToSection(item.id)}
                 className="text-muted-foreground hover:text-primary block px-3 py-2 text-base font-medium w-full text-left transition-colors"
               >
+                <item.icon className="h-5 w-5 inline-block mr-1" />
                 {item.label}
               </button>
             ))}
