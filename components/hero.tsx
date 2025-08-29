@@ -39,7 +39,7 @@ export function Hero() {
               onClick={() => scrollToSection('resume')}
               className="px-8 py-3 text-lg font-medium"
             >
-              <a href="https://drive.google.com/file/d/1vdHwvmK7bx1VkJs1zdxw282nftOsLje9/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1bVX4SybIoWnAqsU3tOCMC0HDbaGx6u2P/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <FileText className="inline-block mr-2 h-5 w-5" />
                 View Resume
               </a>
